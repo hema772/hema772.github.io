@@ -1,0 +1,99 @@
+{
+   "aws": [
+      "Cloud Computing",
+      "Amazon Web Services (AWS)"
+   ],
+   "languages": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Google Apps Script",
+      "SQL",
+      "Rust",
+      "Bash"
+   ],
+   "backend": [
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "REST API",
+      "GraphQL",
+      "WebSockets",
+      "JWT",
+      "OAuth",
+      "Multer",
+      "SQLAlchemy",
+      "Drizzle ORM",
+      "Mongoose",
+      "PostgreSQL",
+      "Neon",
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "SQLite"
+   ],
+   "tools_platforms": [
+      "Git",
+      "VS Code",
+      "Jupyter Notebook",
+      "Postman",
+      "SonarQube",
+      "Vercel",
+      "Cloudflare Workers",
+      "Cloudflare R2",
+      "Render",
+      "GitHub Pages",
+      "pnpm",
+      "esbuild",
+      "Chrome Extensions",
+      "Unity"
+   ],
+   "cs_fundamentals": [
+      "Data Structures & Algorithms",
+      "System Design",
+      "Object-Oriented Programming",
+      "Computer Networks",
+      "Operating Systems",
+      "Software Engineering",
+      "Database Management Systems"
+   ],
+   "soft_skills": [
+      "Leadership",
+      "Problem Solving",
+      "Communication",
+      "Teamwork",
+      "Critical Thinking",
+      "Adaptability"
+   ],
+   "areas_of_interest": [
+      "Cloud Computing",
+      "Cloud Architecture",
+      "Full-Stack Development",
+      "IoT Systems",
+      "Open Source",
+      "Software Engineering"
+   ],
+   "hero_stack": [
+      "Cloud Computing",
+      "Amazon Web Services (AWS)",
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "Rust",
+      "Bash",
+      "Node.js",
+      "FastAPI",
+      "PostgreSQL",
+      "Git"
+   ],
+   "categories": {
+      "aws": { "label": "Cloud Computing" },
+      "languages": { "label": "Programming Languages" },
+      "backend": { "label": "Backend & Databases" },
+      "tools_platforms": { "label": "Tools & Platforms" },
+      "cs_fundamentals": { "label": "CS Fundamentals" },
+      "soft_skills": { "label": "Soft Skills" },
+      "areas_of_interest": { "label": "Areas of Interest" }
+   }
+}

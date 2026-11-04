@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ibmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F62FE"/>
+      <stop offset="100%" stop-color="#001D6C"/>
+    </linearGradient>
+  </defs>
+  <polygon points="100,12 178,56 178,144 100,188 22,144 22,56" fill="#001141" stroke="#0F62FE" stroke-width="4" stroke-linejoin="round"/>
+  <text x="100" y="58" font-family="system-ui, sans-serif" font-size="15" font-weight="900" fill="#0F62FE" text-anchor="middle" letter-spacing="2">IBM</text>
+  <text x="100" y="75" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#78A9FF" text-anchor="middle">SkillsBuild</text>
+  <circle cx="100" cy="106" r="24" fill="none" stroke="#0F62FE" stroke-width="2"/>
+  <path d="M 90 106 L 98 114 L 114 98" fill="none" stroke="#42BE65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="35" y="136" width="130" height="26" rx="3" fill="#0F62FE"/>
+  <text x="100" y="148" font-family="system-ui, sans-serif" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">SECURITY OPERATIONS</text>
+  <text x="100" y="158" font-family="system-ui, sans-serif" font-size="8.5" font-weight="800" fill="#FFFFFF" text-anchor="middle">CENTER IN PRACTICE</text>
+</svg>

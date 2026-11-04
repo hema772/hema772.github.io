@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="paBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FA582D"/>
+      <stop offset="100%" stop-color="#D03810"/>
+    </linearGradient>
+  </defs>
+  <polygon points="100,12 178,56 178,144 100,188 22,144 22,56" fill="#111827" stroke="url(#paBg)" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="100,22 168,61 168,139 100,178 32,139 32,61" fill="none" stroke="#FA582D" stroke-width="1.5" opacity="0.5"/>
+  <!-- Palo Alto logo style shape -->
+  <path d="M 75 60 L 125 60 L 135 75 L 115 105 L 85 105 Z" fill="#FA582D" opacity="0.9"/>
+  <text x="100" y="122" font-family="system-ui, sans-serif" font-size="10.5" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PALO ALTO</text>
+  <rect x="40" y="130" width="120" height="22" rx="3" fill="#FA582D"/>
+  <text x="100" y="145" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#FFFFFF" text-anchor="middle">CLOUD SECURITY</text>
+  <text x="100" y="168" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#9CA3AF" text-anchor="middle">FUNDAMENTALS</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ciscoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#005073"/>
+      <stop offset="100%" stop-color="#049FD9"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="88" fill="#0D1B2A" stroke="#049FD9" stroke-width="4"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#049FD9" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.6"/>
+  <!-- Cisco bridge bars -->
+  <g fill="#049FD9" transform="translate(50, 42)">
+    <rect x="0" y="16" width="6" height="16" rx="2"/>
+    <rect x="12" y="8" width="6" height="24" rx="2"/>
+    <rect x="24" y="0" width="6" height="32" rx="2"/>
+    <rect x="36" y="8" width="6" height="24" rx="2"/>
+    <rect x="47" y="0" width="6" height="32" rx="2"/>
+    <rect x="59" y="8" width="6" height="24" rx="2"/>
+    <rect x="70" y="0" width="6" height="32" rx="2"/>
+    <rect x="82" y="8" width="6" height="24" rx="2"/>
+    <rect x="94" y="16" width="6" height="16" rx="2"/>
+  </g>
+  <text x="100" y="98" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">CISCO</text>
+  <rect x="35" y="108" width="130" height="26" rx="4" fill="#049FD9"/>
+  <text x="100" y="122" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0D1B2A" text-anchor="middle">CYBERSECURITY</text>
+  <text x="100" y="131" font-family="system-ui, sans-serif" font-size="8" font-weight="700" fill="#0D1B2A" text-anchor="middle">INTRODUCTION</text>
+  <text x="100" y="156" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#7DD3FC" text-anchor="middle">NETWORKING ACADEMY</text>
+</svg>

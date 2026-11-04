@@ -1,0 +1,348 @@
+{
+   "certifications": [
+      {
+         "id": 1,
+         "name": "Solutions Architecture Job Simulation",
+         "type": "Job Simulation",
+         "issuer": "AWS & Forage",
+         "issueDate": "2026-01-15",
+         "badgeId": "aws-forage-solutions-architecture",
+         "level": "Associate",
+         "imageUrl": "/images/certifications/aws-certified-cloud-practitioner.png"
+      },
+      {
+         "id": 2,
+         "name": "Basics of Python",
+         "type": "Programming Certification",
+         "issuer": "Infosys Springboard",
+         "issueDate": "2026-05-01",
+         "badgeId": "infosys-basics-of-python",
+         "level": "Foundational",
+         "imageUrl": "/images/certifications/google-cloud-ai-agents.png"
+      },
+      {
+         "id": 3,
+         "name": "AZ-700: Designing Microsoft Azure Networking Solutions",
+         "type": "Industry Certification",
+         "issuer": "Microsoft",
+         "issueDate": "2025-05-22",
+         "badgeId": "ms-az700-azure-networking",
+         "level": "Associate",
+         "imageUrl": "/images/certifications/microsoft-az700.png"
+      },
+      {
+         "id": 4,
+         "name": "AWS Certified Cloud Practitioner",
+         "type": "Industry Certification",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2025-04-10",
+         "badgeId": "aws-certified-cloud-practitioner",
+         "level": "Foundational",
+         "imageUrl": "/images/certifications/aws-certified-cloud-practitioner.png"
+      },
+      {
+         "id": 5,
+         "name": "Engineer AI Agents with Agent Development Kit (ADK)",
+         "type": "Industry Certification",
+         "issuer": "Google Cloud",
+         "issueDate": "2025-11-20",
+         "badgeId": "google-cloud-ai-agents-adk",
+         "level": "Professional",
+         "imageUrl": "/images/certifications/google-cloud-ai-agents.png"
+      }
+   ],
+   "learning_badges": [
+      {
+         "id": 1,
+         "name": "Claude Partner Badge - Claude Code",
+         "type": "Partner Badge",
+         "issuer": "Anthropic",
+         "issueDate": "2026-09-23",
+         "badgeId": "5e4ea6eb-b781-4c83-a0f1-231e2b92e777",
+         "expiryDate": "2027-03-23",
+         "imageUrl": "https://images.credly.com/images/d8bc1ecf-6369-4bf9-8920-84169b35d918/blob"
+      },
+      {
+         "id": 2,
+         "name": "AWS AI-Driven Development Lifecycle (AI-DLC) Ambassador Foundational (L100)",
+         "type": "Training Badge",
+         "issuer": "AWS Worldwide Field Enablement",
+         "issueDate": "2026-06-19",
+         "badgeId": "7d49f6fd-e4e7-478e-8bec-7d6c4c91c447",
+         "level": "Foundational",
+         "imageUrl": "https://images.credly.com/images/4897ff5f-0a15-4ac4-874e-8cb5443e7f28/blob"
+      },
+      {
+         "id": 3,
+         "name": "AWS Partner: Generative AI Technical - Training Badge",
+         "type": "Partner Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2026-01-16",
+         "badgeId": "04175d89-ec79-43cf-95f7-4031854bf5a9",
+         "imageUrl": "https://images.credly.com/images/9bb8bd52-365f-447d-b83b-9d3ee560f5e5/blob"
+      },
+      {
+         "id": 4,
+         "name": "AWS Partner: Technical Accredited - Training Badge",
+         "type": "Partner Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2026-01-16",
+         "badgeId": "9c9dd9fd-42a5-4110-8ff7-e7fd185544f6",
+         "imageUrl": "https://images.credly.com/images/8f006312-3154-45bf-a845-4a043641e83c/blob"
+      },
+      {
+         "id": 5,
+         "name": "AWS Generative AI Technical Intermediate (L200)",
+         "type": "Training Badge",
+         "issuer": "AWS Worldwide Field Enablement",
+         "issueDate": "2025-10-27",
+         "badgeId": "4850c937-dcee-4f8f-9e1c-50263e4e7f92",
+         "level": "Intermediate",
+         "imageUrl": "https://images.credly.com/images/a5e0f58e-77c2-452d-b81d-79981315f238/blob"
+      },
+      {
+         "id": 6,
+         "name": "AWS AI Foundational (L100) Accreditation",
+         "type": "Training Badge",
+         "issuer": "AWS Worldwide Field Enablement",
+         "issueDate": "2025-10-27",
+         "badgeId": "a0b1dead-7335-47ec-a84b-ebb69735fe26",
+         "level": "Foundational",
+         "imageUrl": "https://images.credly.com/images/97c269f6-c8d0-40bd-8cbc-5c7834dbbc91/blob"
+      },
+      {
+         "id": 7,
+         "name": "AWS Partner: Generative AI Essentials - Training Badge",
+         "type": "Partner Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2024-10-01",
+         "badgeId": "f9785728-0e06-4c8b-9d62-08d85f00085e",
+         "imageUrl": "https://images.credly.com/images/4b547104-5ce9-43d5-8708-a7abb4b0c7ec/blob"
+      },
+      {
+         "id": 8,
+         "name": "AWS Educate Getting Started with Storage - Training Badge",
+         "type": "Learning Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2024-10-10",
+         "badgeId": "0ffd3248-5444-4b5f-88ef-6ecf120d17eb",
+         "imageUrl": "https://images.credly.com/images/3b1b42e6-dfc2-492b-90df-8058096cb93d/blob"
+      },
+      {
+         "id": 9,
+         "name": "AWS Educate Introduction to Cloud 101 - Training Badge",
+         "type": "Learning Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2024-10-10",
+         "badgeId": "af8b4f3b-0327-451e-ad85-a436f6bfca9a",
+         "imageUrl": "https://images.credly.com/images/e51a8579-188d-4363-8ed1-12ad164ef57b/blob"
+      },
+      {
+         "id": 10,
+         "name": "AWS Knowledge: Cloud Essentials - Training Badge",
+         "type": "Knowledge Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2024-07-24",
+         "badgeId": "d03e1d39-4e40-483d-9845-f11da0d01170",
+         "imageUrl": "https://images.credly.com/images/7cf036b0-c609-4378-a7be-9969e1dea7ab/blob"
+      },
+      {
+         "id": 11,
+         "name": "AWS Knowledge: Events and Workflows - Training Badge",
+         "type": "Knowledge Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2026-06-12",
+         "badgeId": "ae627e1c-d4d2-4a41-abba-534c444d4c1b",
+         "imageUrl": "https://images.credly.com/images/b6050277-c769-4d17-8c77-3fa963830231/blob"
+      },
+      {
+         "id": 12,
+         "name": "AWS Knowledge: Migration Foundations - Training Badge",
+         "type": "Knowledge Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2026-06-12",
+         "badgeId": "66e65dec-86ce-4741-b29e-4564bc0ea57e",
+         "imageUrl": "https://images.credly.com/images/af87a78c-bd87-4f68-a179-d3edf6ac59d1/blob"
+      },
+      {
+         "id": 13,
+         "name": "AWS Knowledge: Amazon Q Developer Fundamentals - Training Badge",
+         "type": "Knowledge Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2026-01-20",
+         "badgeId": "455690f2-a4f3-4122-be29-6b377b28dfda",
+         "imageUrl": "https://images.credly.com/images/7c51f63c-14ef-4df9-a340-14938d05963a/blob"
+      },
+      {
+         "id": 14,
+         "name": "AWS Knowledge: Serverless - Training Badge",
+         "type": "Knowledge Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2026-01-16",
+         "badgeId": "5f3538f6-0bb1-4ff5-911b-d2701075392f",
+         "imageUrl": "https://images.credly.com/images/0c20a5b7-b4e9-4c2f-8b68-342e00a85e05/blob"
+      },
+      {
+         "id": 15,
+         "name": "Well-Architected Proficient",
+         "type": "Proficiency Badge",
+         "issuer": "Amazon Web Services Training and Certification",
+         "issueDate": "2026-01-16",
+         "badgeId": "ea4a5540-aa93-4f8b-96d2-9bf31de86f72",
+         "imageUrl": "https://images.credly.com/images/b870667f-00a3-48d7-b988-9c02b441b883/image.png"
+      }
+   ],
+   "achievements": [
+      {
+         "id": 17,
+         "title": "1st Place - TNWISE 2026 1st prize winner with 1 lakh prize amount",
+         "organizer": "TANCAM & Govt of Tamil Nadu",
+         "date": "August 2026",
+         "type": "Competition"
+      },
+      {
+         "id": 1,
+         "title": "1st Place - Ideathon, XENO 2K26",
+         "organizer": "Sir Isaac Newton College of Engineering & Technology",
+         "date": "March 2026",
+         "type": "Competition"
+      },
+      {
+         "id": 2,
+         "title": "1st Place - PSG-STEP Dream2Reality Programme Hackathon",
+         "organizer": "PSG-STEP & Defence Ecosystem",
+         "date": "February 2026",
+         "type": "Hackathon"
+      },
+      {
+         "id": 3,
+         "title": "1st Place - Ideathon, FESTRONIX 2025",
+         "organizer": "K. Ramakrishnan College of Technology (KRCT)",
+         "date": "October 2025",
+         "type": "Competition"
+      },
+      {
+         "id": 4,
+         "title": "1st Prize - Academic Student Summit",
+         "organizer": "E.G.S. Pillay Group of Institutions",
+         "date": "September 2025",
+         "type": "Competition"
+      },
+      {
+         "id": 5,
+         "title": "2nd Prize - National Project Expo",
+         "organizer": "Indra Ganesan Institute of Technology",
+         "date": "2025",
+         "type": "Competition"
+      },
+      {
+         "id": 6,
+         "title": "3rd Prize - Kadarkalam Hackathon (StartupTN Smart Card)",
+         "organizer": "StartupTN & Arifa Innovation Council",
+         "date": "July 2025",
+         "type": "Hackathon"
+      },
+      {
+         "id": 7,
+         "title": "4th Prize - CHAKRAVYUHA 2K26 24-Hour Hackathon",
+         "organizer": "J.J. College of Engineering and Technology",
+         "date": "April 2026",
+         "type": "Hackathon"
+      },
+      {
+         "id": 8,
+         "title": "Individual Prize - Naan Mudhalvan x SFJ Hackathon",
+         "organizer": "St. Joseph's College of Engineering",
+         "date": "2025",
+         "type": "Hackathon"
+      },
+      {
+         "id": 9,
+         "title": "Selected for Round 2 - MSME Hackathon",
+         "organizer": "Ministry of MSME",
+         "date": "2025",
+         "type": "Hackathon"
+      },
+      {
+         "id": 10,
+         "title": "Participant & ML Lead - ISRO Hackathon (NetOracle)",
+         "organizer": "ISRO",
+         "date": "2025",
+         "type": "Hackathon"
+      },
+      {
+         "id": 11,
+         "title": "Startup Singam | Student Edition",
+         "organizer": "Loyola College, Chennai",
+         "date": "July 2026",
+         "type": "Competition"
+      },
+      {
+         "id": 12,
+         "title": "Recursion Edition 2 — Shortlisted",
+         "organizer": "VIT Chennai",
+         "date": "September 2026",
+         "type": "Hackathon"
+      },
+      {
+         "id": 13,
+         "title": "Top 10 Finalist - AICCI National Startup Summit",
+         "organizer": "AICCI",
+         "date": "August 2026",
+         "type": "Competition"
+      },
+      {
+         "id": 14,
+         "title": "4th Prize - Nimirndhu Nil Hackathon (State Level)",
+         "organizer": "State Level Hackathon",
+         "date": "August 2026",
+         "type": "Hackathon"
+      },
+      {
+         "id": 15,
+         "title": "AWS Student Builder - 1st Prize",
+         "organizer": "Amazon Web Services",
+         "date": "May 2026",
+         "type": "Competition"
+      },
+      {
+         "id": 16,
+         "title": "AWS Solutions Architecture Job Simulation",
+         "organizer": "AWS & Forage",
+         "date": "January 2026",
+         "type": "Program"
+      }
+   ],
+   "coding_platform_stats": {
+      "github": {
+         "username": "hema772",
+         "url": "https://github.com/hema772",
+         "contributions": 482,
+         "pull_requests": 64,
+         "longest_streak": 28,
+         "languages": [
+            {
+               "name": "Python",
+               "percent": 45
+            },
+            {
+               "name": "Shell",
+               "percent": 25
+            },
+            {
+               "name": "TypeScript",
+               "percent": 15
+            },
+            {
+               "name": "JavaScript",
+               "percent": 10
+            },
+            {
+               "name": "CSS",
+               "percent": 5
+            }
+         ],
+         "fetched": "2026-10-31"
+      }
+   }
+}

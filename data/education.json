@@ -1,0 +1,54 @@
+[
+   {
+      "id": 1,
+      "date": "2023 - 2027 (Present)",
+      "title": "Bachelor of Engineering in Computer Science and Engineering",
+      "institution": "Arifa Institute of Technology, Anna University",
+      "department": "Department of Computer Science & Engineering",
+      "location": "Esanoor, Nagapattinam, Tamil Nadu",
+      "cgpa": "8.35",
+      "achievements": [
+         "1st Prize - TNWISE 2026 (TANCAM) for Smart SaltCare (Rural Innovation)",
+         "AWS Student Builder - Recognised for cloud learning & community contributions",
+         "Google Student Ambassador - Selected for technology advocacy on campus",
+         "Top 10 Finalist - AICCI National Startup Summit (Thoothukudi, Aug 2026)",
+         "State Level Selected - Nimirndhu Nil Hackathon (TNYIEDP, EDII-TN)",
+         "Homepreneur Awards 2026 - Startup Singam (Loyola College, Chennai)",
+         "Shortlisted - Recursion Edition 2 Hackathon (VIT Chennai, Sep 2026)",
+         "1st Place – Ideathon at XENO 2K26 (Sir Isaac Newton College of Engineering)",
+         "1st Place – PSG-STEP Dream2Reality Programme Hackathon (Defence Ecosystem)",
+         "1st Prize – Academic Student Summit (EGS Pillay Group of Institutions)",
+         "3rd Prize – Kadarkalam Hackathon (Organized by StartupTN and AIIC, StartupTN Smart Card Awardee)",
+         "4th Prize – CHAKRAVYUHA 2K26 24-Hour Hackathon (J.J. College of Engineering)",
+         "ISRO Hackathon Participant (NetOracle AI-Powered Air-Gapped Network Security)",
+         "Selected for Round 2 – MSME Hackathon",
+         "AWS Student Builder Group Leader",
+         "Google Student Ambassador"
+      ],
+      "skills": [
+         "Cloud Computing",
+         "AWS",
+         "Python",
+         "Django",
+         "REST API",
+         "Linux"
+      ]
+   },
+   {
+      "id": 2,
+      "date": "2021 - 2023",
+      "title": "Government Girls Higher Secondary School",
+      "institution": "Higher Secondary Certificate (Class XII)",
+      "department": "Department of School Education",
+      "location": "Vedaranyam, Nagapattinam, Tamil Nadu",
+      "cgpa": "85.16%",
+      "achievements": ["Graduated Class XII with Distinction (85.16%) in 2023"],
+      "skills": [
+         "Computer Science",
+         "Mathematics",
+         "Physics",
+         "Chemistry",
+         "Problem Solving"
+      ]
+   }
+]

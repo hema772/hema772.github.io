@@ -1,0 +1,34 @@
+{
+   "contact_options": [
+      {
+         "id": 1,
+         "icon": "MdOutlineEmail",
+         "title": "Email Me",
+         "value": "hemadharshinimarimuthu@gmail.com",
+         "link": "mailto:hemadharshinimarimuthu@gmail.com",
+         "message": "Email"
+      },
+      {
+         "id": 2,
+         "icon": "BsLinkedin",
+         "title": "LinkedIn",
+         "value": "in/hema-dharshini07",
+         "link": "https://www.linkedin.com/in/hema-dharshini07/",
+         "message": "Connect"
+      },
+      {
+         "id": 3,
+         "icon": "FiGithub",
+         "title": "GitHub",
+         "value": "hema772",
+         "link": "https://github.com/hema772",
+         "message": "Follow"
+      }
+   ],
+   "email_config": {
+      "service_id": "service_lyt547p",
+      "template_id": "template_yz438w6",
+      "public_key": "PAcL61ygLI8WYG16R",
+      "validation_pattern": "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\\.)+[a-zA-Z](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])$"
+   }
+}

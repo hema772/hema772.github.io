@@ -1,0 +1,52 @@
+[
+   {
+      "term": "AWS",
+      "match": ["Amazon Web Services", "AWS"],
+      "definition": "A comprehensive cloud platform provided by Amazon offering compute, storage and managed networking services globally."
+   },
+   {
+      "term": "EC2",
+      "match": ["Amazon EC2", "EC2"],
+      "definition": "Amazon Elastic Compute Cloud: secure and resizable virtual compute capacity in the cloud."
+   },
+   {
+      "term": "S3",
+      "match": ["Amazon S3", "S3"],
+      "definition": "Amazon Simple Storage Service: highly scalable object storage built to retrieve any amount of data anywhere."
+   },
+   {
+      "term": "VPC",
+      "match": ["Amazon VPC", "VPC"],
+      "definition": "Amazon Virtual Private Cloud: a logically isolated virtual network dedicated to your cloud resources."
+   },
+   {
+      "term": "SaaS",
+      "match": ["Software as a Service", "SaaS"],
+      "definition": "Software as a Service: complete software applications delivered over the internet directly to end users."
+   },
+   {
+      "term": "PaaS",
+      "match": ["Platform as a Service", "PaaS"],
+      "definition": "Platform as a Service: hardware and application frameworks provided for developers to build and run software."
+   },
+   {
+      "term": "IaaS",
+      "match": ["Infrastructure as a Service", "IaaS"],
+      "definition": "Infrastructure as a Service: on-demand access to fundamental compute, network and storage resources."
+   },
+   {
+      "term": "CRM",
+      "match": ["CRM"],
+      "definition": "Customer relationship management: software designed to manage customer interactions, workflows and business operations."
+   },
+   {
+      "term": "NOC",
+      "match": ["NOC"],
+      "definition": "Network Operations Center: a centralized location where IT technicians supervise, monitor and maintain telecommunications networks."
+   },
+   {
+      "term": "CSR",
+      "match": ["CSR"],
+      "definition": "Corporate social responsibility: initiatives through which companies integrate social and environmental concerns into business operations."
+   }
+]

@@ -1,0 +1,184 @@
+{
+   "spotlight_project_id": 1,
+   "featured_projects": [
+      {
+         "id": 1,
+         "title": "Smart SaltCare",
+         "description": "A solar-powered smart mobility and weather-alert solution designed for salt-pan workers.",
+         "date": "August 2026",
+         "status": "complete",
+         "tools_tech": [
+            "IoT",
+            "Solar Power",
+            "Embedded C++",
+            "Python",
+            "Sensors",
+            "AWS",
+            "REST API",
+            "Telemetry"
+         ],
+         "features": [
+            "Solar-powered smart mobility and environmental hazard early warning system",
+            "Multi-sensor telemetry pipeline monitoring brine salinity, temperature, and heat indices",
+            "Awarded First Prize at TNWISE 2026 (TANCAM) with 1 Lakh prize amount for rural innovation",
+            "Low-latency weather-alert broadcasts warning workers of rapid coastal microclimate shifts"
+         ],
+         "case_study": {
+            "problem": "Salt pan workers face extreme climatic heat and hazardous brine conditions without automated environmental risk warnings or mobility assistance.",
+            "built": "Engineered Smart SaltCare, an autonomous solar-powered IoT platform delivering real-time telemetry, automated weather alerts, and smart mobility support.",
+            "decisions": [
+               "Solar energy harvesting with integrated battery management for continuous field operation",
+               "Corrosion-resistant telemetry encasings designed to withstand harsh hypersaline conditions",
+               "Edge sensor processing paired with low-power wireless alerts to deliver immediate hazard warnings"
+            ],
+            "outcome": "Awarded First Prize at TNWISE 2026 with a 1 Lakh cash prize, advancing to state incubation programs."
+         },
+         "github": "#",
+         "live": "#"
+      },
+      {
+         "id": 2,
+         "title": "Private Cloud File Storage System",
+         "description": "A self-hosted private cloud solution for secure file storage and management.",
+         "date": "November 2025",
+         "status": "complete",
+         "tools_tech": [
+            "Docker",
+            "Kali Linux",
+            "Python",
+            "Self-Hosted",
+            "Web Interface",
+            "REST API",
+            "Bash"
+         ],
+         "features": [
+            "Self-hosted private cloud storage architecture deployed via Docker on Kali Linux",
+            "Intuitive web-based console enabling secure file uploads, downloads, and directory management",
+            "Privacy-centric design eliminating reliance on third-party cloud storage platforms and external tracking",
+            "Isolated persistent Docker volumes ensuring data durability and localized access control"
+         ],
+         "case_study": {
+            "problem": "Public cloud storage solutions impose recurring subscription costs and expose confidential data to third-party telemetry and vendor lock-in.",
+            "built": "Architected a self-hosted private cloud file storage server containerized on Kali Linux with a lightweight web management dashboard.",
+            "decisions": [
+               "Docker containerization for rapid deployment, dependency encapsulation, and system security",
+               "Dedicated local volume bindings ensuring strict data sovereignty and local network file sharing",
+               "Responsive web interface allowing seamless cross-device management without client software installation"
+            ],
+            "outcome": "Successfully established an air-gapped capable, high-security storage hub with zero ongoing infrastructure costs."
+         },
+         "github": "#",
+         "live": "#"
+      },
+      {
+         "id": 3,
+         "title": "CRM Application – Fleet Management System",
+         "description": "A CRM-based application designed to manage fleet operations and related business workflows.",
+         "date": "May 2025",
+         "status": "complete",
+         "tools_tech": [
+            "Django",
+            "Python",
+            "JavaScript",
+            "REST API",
+            "PostgreSQL",
+            "HTML5",
+            "CSS3",
+            "Git"
+         ],
+         "features": [
+            "Comprehensive CRM platform for tracking client relationships, service bookings, and contracts",
+            "Fleet management module automating driver allocation, route optimization, and vehicle tracking",
+            "REST API integrations streamlining data exchange between client accounts and operational dispatch",
+            "Reduced manual data entry by 40% and improved fleet turnaround dispatch planning by 30%"
+         ],
+         "case_study": {
+            "problem": "Disjointed manual spreadsheets caused communication delays between client account managers and fleet dispatch teams.",
+            "built": "Engineered a unified Django CRM and fleet management portal with relational database modeling and automated route planning endpoints.",
+            "decisions": [
+               "Django framework with PostgreSQL for transactional integrity and role-based access control",
+               "Algorithmic route planning integrated via REST APIs to optimize transit duration",
+               "Dynamic operator dashboards providing real-time visibility into vehicle availability and task progression"
+            ],
+            "outcome": "Accelerated dispatch coordination, cut operational overhead by 40%, and streamlined end-to-end customer fleet workflows."
+         },
+         "github": "#",
+         "live": "#"
+      },
+      {
+         "id": 4,
+         "title": "On-Premises NOC Copilot (NetOracle)",
+         "description": "An air-gapped Network Operations Center copilot designed to support network monitoring, troubleshooting, and operational insights.",
+         "date": "February 2025",
+         "status": "complete",
+         "tools_tech": [
+            "Python",
+            "Network Forensics",
+            "FastAPI",
+            "Linux",
+            "Telemetry",
+            "Docker",
+            "Machine Learning",
+            "Syslog"
+         ],
+         "features": [
+            "Air-gapped Network Operations Center copilot functioning with zero external internet dependencies",
+            "Real-time syslog and telemetry stream ingestion for automated anomaly detection",
+            "Forensic diagnostic engine generating contextual troubleshooting playbooks for network engineers",
+            "Recognized in ISRO Hackathon as lead ML security and network diagnostic architecture"
+         ],
+         "case_study": {
+            "problem": "Enterprise NOC teams in air-gapped high-security facilities cannot utilize cloud-hosted AI tools for triage without risking data exfiltration.",
+            "built": "Created NetOracle, a fully on-premises intelligent NOC copilot correlating telemetry logs and synthesizing operational troubleshooting guides.",
+            "decisions": [
+               "Offline local inference and rule-based diagnostic models to ensure complete air-gap compliance",
+               "High-throughput streaming log parser handling multi-switch network telemetry simultaneously",
+               "Structured diagnostic playbooks mapped against common network routing, port, and security faults"
+            ],
+            "outcome": "Enabled zero-leakage, real-time network anomaly identification and cut mean time to remediation during mission-critical drills."
+         },
+         "github": "#",
+         "live": "#"
+      },
+      {
+         "id": 5,
+         "title": "Beacon – Hackathon Prototype (Wildcard Track: CSR Project Lifecycle Management)",
+         "description": "Beacon transforms scattered WhatsApp updates from CSR field partners into structured, audit-ready, compliance-linked project records.",
+         "date": "July 2026",
+         "status": "complete",
+         "tools_tech": [
+            "Python",
+            "WhatsApp API",
+            "FastAPI",
+            "PostgreSQL",
+            "Audit Trail",
+            "REST API",
+            "OCR",
+            "Docker"
+         ],
+         "features": [
+            "Ingests unstructured field updates (text, photos, and voice notes) sent by CSR partners over WhatsApp",
+            "Parsing and validation layer structuring raw inputs into compliance-linked project milestone entries",
+            "Tamper-evident audit chain recording every update, timestamp, and modification for strict verification",
+            "Directly supports the generation of statutory CSR-2 regulatory compliance reports from verified records"
+         ],
+         "case_study": {
+            "problem": "Corporate social responsibility projects rely on scattered, unverified field WhatsApp messages that fail compliance audits and make statutory reporting painful.",
+            "built": "Architected Beacon, a data ingestion and verification pipeline converting multi-format field updates into immutable, audit-ready CSR-2 documentation.",
+            "decisions": [
+               "Addressed data quality at the source by enabling field partners to report naturally via WhatsApp text, photos, and audio",
+               "Implemented a structured parsing layer to normalize milestone deliverables against approved grant line items",
+               "Engineered a tamper-evident audit log guaranteeing non-repudiation for statutory compliance audits"
+            ],
+            "outcome": "Transformed fragmented field communications into clean, audit-ready datasets, enabling automated generation of statutory CSR-2 filings."
+         },
+         "github": "#",
+         "live": "#"
+      }
+   ],
+   "collaborative_projects": [],
+   "community_projects": [],
+   "other_projects": [],
+   "open_source_contributions": [],
+   "community_discussions": []
+}

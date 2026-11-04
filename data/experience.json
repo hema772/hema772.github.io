@@ -1,0 +1,133 @@
+{
+   "professional_experience": [
+      {
+         "id": 1,
+         "date": "December 2024 - May 2025",
+         "title": "Full Stack Developer & Digital Marketing Intern",
+         "position": "Internship",
+         "company": "Vhilv Technology",
+         "location": "Nagapattinam, Tamil Nadu",
+         "summary": "Worked as an intern at Vhilv Technology, gaining practical experience in Full Stack Development and Digital Marketing. Contributed to development-related tasks, website activities, digital marketing work, and practical industry projects.",
+         "scene": "landing-zone",
+         "projects": [
+            {
+               "name": "Full Stack Web & Digital Marketing Operations",
+               "date": "Dec 2024 - May 2025",
+               "scene": "security-controls",
+               "description": {
+                  "1": "Worked as an intern at Vhilv Technology, gaining practical experience in Full Stack Development and Digital Marketing.",
+                  "2": "Contributed to development-related tasks, website activities, digital marketing work, and practical industry projects.",
+                  "3": "Spearheaded website management, content updates, and coordinated technical and marketing activities for client deliverables."
+               },
+               "case_study": {
+                  "problem": "Industry client systems required unified full stack development, regular website maintenance, and synchronized digital marketing outreach.",
+                  "built": "Developed responsive web modules, managed website deployments, and implemented digital marketing campaigns for live client projects.",
+                  "decisions": [
+                     "Integrated modern full stack development practices for clean web interfaces",
+                     "Structured website management workflows ensuring rapid content deployment",
+                     "Aligned digital marketing strategies with technical web deliverables"
+                  ],
+                  "outcome": "Successfully enhanced client web platforms, increased digital outreach, and delivered end-to-end industry project milestones."
+               },
+               "skills": [
+                  "Full Stack Development",
+                  "Web Development",
+                  "Digital Marketing",
+                  "Website Management",
+                  "Technical and Marketing Activities"
+               ]
+            }
+         ],
+         "internal_contributions": [],
+         "internal_achievements": []
+      },
+      {
+         "id": 2,
+         "date": "June 2025 - October 2025",
+         "title": "Full Stack Development Intern (Stipend)",
+         "position": "Internship",
+         "company": "VHILV Technologies",
+         "location": "Nagapattinam, Tamil Nadu",
+         "summary": "Developed Django CRM modules cutting manual entry by 40%, built REST fleet optimization, and authored cloud architecture workflows.",
+         "scene": "landing-zone",
+         "projects": [
+            {
+               "name": "CRM Application & Fleet Route Optimization",
+               "date": "Jun 2025 - Oct 2025",
+               "scene": "security-controls",
+               "description": {
+                  "1": "Developed and deployed CRM application modules, including authentication and client management, using Django and JavaScript, reducing manual data entry by 40%.",
+                  "2": "Engineered a fleet route optimization system with REST API integration, cutting route planning time by 30%.",
+                  "3": "Designed responsive UI components and authored technical documentation covering API design and cloud architecture workflows."
+               },
+               "case_study": {
+                  "problem": "Manual CRM entry caused operational bottlenecks and fleet logistics lacked automated routing and cloud-ready APIs.",
+                  "built": "Developed Django web modules with JWT authentication, RESTful routing microservices, and responsive client interfaces.",
+                  "decisions": [
+                     "Django and JavaScript architecture for rapid authentication and client management",
+                     "REST API routing engine integrated into the fleet dispatch pipeline",
+                     "Responsive UI components paired with clear cloud architecture documentation"
+                  ],
+                  "outcome": "Cut manual data entry by 40% and accelerated fleet route dispatch planning by 30%."
+               },
+               "skills": [
+                  "Django",
+                  "Python",
+                  "JavaScript",
+                  "REST API",
+                  "AWS",
+                  "PostgreSQL",
+                  "Linux",
+                  "UI Design",
+                  "Documentation",
+                  "Git"
+               ]
+            }
+         ],
+         "internal_contributions": [],
+         "internal_achievements": []
+      }
+   ],
+   "positions_of_responsibility": [
+      {
+         "id": 1,
+         "date": "2025 - Present",
+         "title": "Student Builder",
+         "position": "Student Leader",
+         "company": "AWS Student Builder",
+         "location": "Tamil Nadu, India",
+         "summary": "Recognised as an AWS Student Builder for active cloud learning, peer mentoring, and community technical contributions.",
+         "description": {
+            "1": "Recognised as an AWS Student Builder for dedicated cloud learning and active contributions to community workshops.",
+            "2": "Facilitate hands-on peer sessions covering AWS cloud architecture, EC2, S3, IAM, and foundational deployment practices."
+         },
+         "skills": [
+            "AWS",
+            "Cloud Computing",
+            "Architecture",
+            "Mentorship",
+            "Community Building"
+         ]
+      },
+      {
+         "id": 2,
+         "date": "2025 - Present",
+         "title": "Campus Ambassador",
+         "position": "Student Ambassador",
+         "company": "Google Student Ambassador Program",
+         "location": "Tamil Nadu, India",
+         "summary": "Selected as Google Student Ambassador on campus to advocate Google developer technologies, workshops, and student initiatives.",
+         "description": {
+            "1": "Selected as Google Student Ambassador for promoting Google technologies, open standards, and developer events on campus.",
+            "2": "Coordinate student participation in national hackathons and developer ecosystem programs."
+         },
+         "skills": [
+            "Google Technologies",
+            "Developer Advocacy",
+            "Public Speaking",
+            "Community Leadership",
+            "Hackathons"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,87 @@
+[
+   {
+      "id": 7,
+      "key": "forward-deployed",
+      "title": "Forward Deployed Engineering",
+      "list": [
+         "Embedded with customer teams as the DevOps lead",
+         "End-to-end delivery, from design to deployment",
+         "Customer requirements to tested Terraform modules",
+         "Enterprise and financial services engagements",
+         "Three solutions published under aws-samples",
+         "Internal tech talks on Terraform testing and GitOps"
+      ]
+   },
+   {
+      "id": 1,
+      "key": "landing-zones",
+      "title": "Landing Zones & Cloud Governance",
+      "list": [
+         "Organizations, Control Tower, Identity Center",
+         "SCP, RCP and tag policy guardrails as code",
+         "Security Hub, GuardDuty and Inspector baselines",
+         "Account baselines with least-privilege deploy roles",
+         "Delegated admin for organization-wide security"
+      ]
+   },
+   {
+      "id": 2,
+      "key": "iac-cicd",
+      "title": "Infrastructure as Code & CI/CD",
+      "list": [
+         "Terraform modules tested with tftest, PyTest",
+         "Versioned Terraform module libraries",
+         "GitHub Actions, CodePipeline, OIDC roles",
+         "Blue-green and canary with auto rollback",
+         "Plan and test before every apply"
+      ]
+   },
+   {
+      "id": 3,
+      "key": "cloud-networking",
+      "title": "Cloud Networking",
+      "list": [
+         "Transit Gateway hub-and-spoke with inspection",
+         "Self-service VPC onboarding automation",
+         "Multi-account VPC and IP address design",
+         "Route 53 DNS across accounts",
+         "Hybrid connectivity for on-premises networks"
+      ]
+   },
+   {
+      "id": 4,
+      "key": "mlops-genai",
+      "title": "MLOps & GenAI on AWS",
+      "list": [
+         "SageMaker pipelines behind hard quality gates",
+         "Drift and fairness alarms trigger retraining",
+         "Blue-green endpoints with automatic rollback",
+         "Bedrock Guardrails and optional A2I review",
+         "Pipeline published as a solution on aws-samples"
+      ]
+   },
+   {
+      "id": 5,
+      "key": "agent-tooling",
+      "title": "AI Agents & Developer Tooling",
+      "list": [
+         "MCP servers for Bedrock, tax filing, memory",
+         "A 16-plugin Claude Code marketplace",
+         "AI-DLC: CLAUDE.md, skills, hooks, subagents",
+         "Spec-driven design with Kiro, Claude Code",
+         "skillcheck: Agent Skills conformance on npm"
+      ]
+   },
+   {
+      "id": 6,
+      "key": "full-stack",
+      "title": "Full-Stack Projects",
+      "list": [
+         "React 19 and Next.js 16 frontends",
+         "FastAPI and Node.js APIs with WebSockets",
+         "Postgres on Neon with Drizzle or SQLAlchemy",
+         "In-app AI assistants on read-only tools",
+         "Live on Vercel, Render and GitHub Pages"
+      ]
+   }
+]

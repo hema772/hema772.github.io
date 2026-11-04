@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ccBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338CA"/>
+      <stop offset="100%" stop-color="#1E1B4B"/>
+    </linearGradient>
+  </defs>
+  <polygon points="100,12 178,56 178,144 100,188 22,144 22,56" fill="#0F172A" stroke="#818CF8" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="100" cy="66" r="18" fill="none" stroke="#818CF8" stroke-width="2"/>
+  <path d="M 100 56 L 100 76 M 90 66 L 110 66" stroke="#818CF8" stroke-width="2"/>
+  <rect x="30" y="94" width="140" height="32" rx="4" fill="#4338CA"/>
+  <text x="100" y="108" font-family="system-ui, sans-serif" font-size="9" font-weight="900" fill="#FFFFFF" text-anchor="middle">CYBERCRIME</text>
+  <text x="100" y="121" font-family="system-ui, sans-serif" font-size="9" font-weight="900" fill="#FFFFFF" text-anchor="middle">INVESTIGATION</text>
+  <text x="100" y="156" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#C7D2FE" text-anchor="middle">HANDS-ON APPROACH</text>
+</svg>

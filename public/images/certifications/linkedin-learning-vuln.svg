@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="liBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A66C2"/>
+      <stop offset="100%" stop-color="#004182"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="88" fill="#0A1929" stroke="#0A66C2" stroke-width="4"/>
+  <text x="100" y="60" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#0A66C2" text-anchor="middle" letter-spacing="1">LINKEDIN</text>
+  <text x="100" y="76" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#70B5F9" text-anchor="middle">LEARNING</text>
+  <rect x="35" y="94" width="130" height="32" rx="4" fill="#0A66C2"/>
+  <text x="100" y="108" font-family="system-ui, sans-serif" font-size="9" font-weight="900" fill="#FFFFFF" text-anchor="middle">VULNERABILITY</text>
+  <text x="100" y="121" font-family="system-ui, sans-serif" font-size="9" font-weight="900" fill="#FFFFFF" text-anchor="middle">MANAGEMENT</text>
+  <text x="100" y="156" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#93C5FD" text-anchor="middle">CYBERSECURITY</text>
+</svg>

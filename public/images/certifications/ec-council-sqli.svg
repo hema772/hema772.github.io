@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="ecBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="100%" stop-color="#7F1D1D"/>
+    </linearGradient>
+  </defs>
+  <polygon points="100,12 178,56 178,144 100,188 22,144 22,56" fill="#18181B" stroke="#DC2626" stroke-width="4" stroke-linejoin="round"/>
+  <text x="100" y="58" font-family="system-ui, sans-serif" font-size="13" font-weight="900" fill="#DC2626" text-anchor="middle" letter-spacing="1">EC-COUNCIL</text>
+  <text x="100" y="74" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#FCA5A5" text-anchor="middle">CodeRed</text>
+  <rect x="35" y="94" width="130" height="32" rx="4" fill="#DC2626"/>
+  <text x="100" y="108" font-family="system-ui, sans-serif" font-size="9.5" font-weight="900" fill="#FFFFFF" text-anchor="middle">SQL INJECTION</text>
+  <text x="100" y="121" font-family="system-ui, sans-serif" font-size="9.5" font-weight="900" fill="#FFFFFF" text-anchor="middle">ATTACKS</text>
+  <text x="100" y="156" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#FCA5A5" text-anchor="middle">CYBERSECURITY</text>
+</svg>

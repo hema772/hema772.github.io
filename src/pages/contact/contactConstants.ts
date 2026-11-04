@@ -1,0 +1,77 @@
+import type { ComponentType } from "react";
+import { Mail, Calendar, Globe } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
+import { AMBER, BLUE_LIGHT } from "@/constants/theme";
+import { LinkedinIcon, InstagramIcon, GitHubIcon } from "./ContactIcons";
+import type { IconStyleProps } from "./ContactIcons";
+
+interface ContactColors {
+   accent: string;
+   bg: string;
+   border: string;
+}
+
+// LinkedIn, Instagram and GitHub keep their own brand colours on purpose.
+const CONTACT_COLORS: Record<string, ContactColors> = {
+   email: {
+      accent: BLUE_LIGHT,
+      bg: "rgb(var(--ch-blue-light) / 0.08)",
+      border: "rgb(var(--ch-blue-light) / 0.15)",
+   },
+   linkedin: {
+      accent: "#0a66c2",
+      bg: "rgba(10,102,194,0.08)",
+      border: "rgba(10,102,194,0.15)",
+   },
+   instagram: {
+      accent: "#e1306c",
+      bg: "rgba(225,48,108,0.08)",
+      border: "rgba(225,48,108,0.15)",
+   },
+   calendar: {
+      accent: AMBER,
+      bg: "rgb(var(--ch-amber) / 0.08)",
+      border: "rgb(var(--ch-amber) / 0.15)",
+   },
+   github: {
+      accent: "#a5a5c0",
+      bg: "rgba(165,165,192,0.08)",
+      border: "rgba(165,165,192,0.15)",
+   },
+   globe: {
+      accent: "#38bdf8",
+      bg: "rgba(56,189,248,0.08)",
+      border: "rgba(56,189,248,0.15)",
+   },
+};
+
+interface ContactMeta {
+   Icon: ComponentType<IconStyleProps> | LucideIcon;
+   colors: ContactColors;
+}
+
+export const DEFAULT_CONTACT_META: ContactMeta = {
+   Icon: Mail,
+   colors: CONTACT_COLORS.email,
+};
+
+export const CONTACT_META: Record<string, ContactMeta> = {
+   MdOutlineEmail: DEFAULT_CONTACT_META,
+   BsLinkedin: { Icon: LinkedinIcon, colors: CONTACT_COLORS.linkedin },
+   FiInstagram: { Icon: InstagramIcon, colors: CONTACT_COLORS.instagram },
+   FiCalendar: { Icon: Calendar, colors: CONTACT_COLORS.calendar },
+   FiGithub: { Icon: GitHubIcon, colors: CONTACT_COLORS.github },
+   FiGlobe: { Icon: Globe, colors: CONTACT_COLORS.globe },
+};
+
+export interface FormData {
+   name: string;
+   email: string;
+   message: string;
+}
+
+export interface Status {
+   type: "" | "error";
+   message: string;
+   field?: "email";
+}

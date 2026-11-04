@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="rfBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A369D"/>
+      <stop offset="100%" stop-color="#001C55"/>
+    </linearGradient>
+  </defs>
+  <path d="M 100 12 L 175 42 L 175 110 C 175 152 100 188 100 188 C 100 188 25 152 25 110 L 25 42 Z" fill="url(#rfBg)" stroke="#4CC9F0" stroke-width="3.5"/>
+  <text x="100" y="58" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#FFFFFF" text-anchor="middle">RELIANCE</text>
+  <text x="100" y="72" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#4CC9F0" text-anchor="middle">FOUNDATION</text>
+  <rect x="40" y="94" width="120" height="32" rx="4" fill="#4CC9F0"/>
+  <text x="100" y="108" font-family="system-ui, sans-serif" font-size="10" font-weight="900" fill="#001C55" text-anchor="middle">SECURITY</text>
+  <text x="100" y="121" font-family="system-ui, sans-serif" font-size="10" font-weight="900" fill="#001C55" text-anchor="middle">ANALYST</text>
+  <text x="100" y="152" font-family="system-ui, sans-serif" font-size="8.5" font-weight="700" fill="#E0F2FE" text-anchor="middle">SKILLING ACADEMY</text>
+  <text x="100" y="166" font-family="system-ui, sans-serif" font-size="8" font-weight="600" fill="#94A3B8" text-anchor="middle">Skill India Digital</text>
+</svg>

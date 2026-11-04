@@ -1,0 +1,147 @@
+[
+   {
+      "date": "2026-09",
+      "type": "award",
+      "text": "Shortlisted for Recursion Edition 2 at VIT Chennai",
+      "impact": "major"
+   },
+   {
+      "date": "2026-09",
+      "type": "award",
+      "text": "Secured 1st Prize at Academic Student Summit, E.G.S. Pillay Group of Institutions",
+      "impact": "major"
+   },
+   {
+      "date": "2026-08",
+      "type": "award",
+      "text": "Ranked Top 10 Finalist at the AICCI National Startup Summit",
+      "impact": "major"
+   },
+   {
+      "date": "2026-08",
+      "type": "award",
+      "text": "Secured 4th Prize at Nimirndhu Nil State-Level Hackathon",
+      "impact": "minor"
+   },
+   {
+      "date": "2026-07",
+      "type": "award",
+      "text": "Selected for Startup Singam Student Edition at Loyola College, Chennai",
+      "impact": "major"
+   },
+   {
+      "date": "2026-05",
+      "type": "award",
+      "text": "Recognized as AWS Student Builder — 1st Prize for cloud contributions",
+      "impact": "major"
+   },
+   {
+      "date": "2026-04",
+      "type": "award",
+      "text": "Won 4th Prize at CHAKRAVYUHA 2K26 24-Hour Hackathon at J.J. College of Engineering",
+      "impact": "minor"
+   },
+   {
+      "date": "2026-03",
+      "type": "award",
+      "text": "Won 1st Place in the Ideathon at XENO 2K26, Sir Isaac Newton College of Engineering",
+      "impact": "major"
+   },
+   {
+      "date": "2026-02",
+      "type": "award",
+      "text": "Won 1st Place at the PSG-STEP Dream2Reality Programme Hackathon with Team R",
+      "impact": "major"
+   },
+   {
+      "date": "2026-01",
+      "type": "cert",
+      "text": "Completed AWS Solutions Architecture Job Simulation on Forage",
+      "impact": "minor"
+   },
+   {
+      "date": "2025-10",
+      "type": "award",
+      "text": "Secured 1st Place in the Ideathon at FESTRONIX 2025, K. Ramakrishnan College (KRCT)",
+      "impact": "major"
+   },
+   {
+      "date": "2025-10",
+      "type": "work",
+      "text": "Completed Full Stack Internship at VHILV Technologies, building Django CRM & APIs",
+      "impact": "major"
+   },
+   {
+      "date": "2025-09",
+      "type": "community",
+      "text": "Addressed college symposium on Engineer's Day 2025, speaking on cloud computing",
+      "impact": "minor"
+   },
+   {
+      "date": "2025-08",
+      "type": "community",
+      "text": "Founded Arifa Tech Club, a student cloud computing and web development club",
+      "impact": "major"
+   },
+   {
+      "date": "2025-08",
+      "type": "community",
+      "text": "Selected as Google Student Ambassador and AWS Student Builder Group Leader",
+      "impact": "major"
+   },
+   {
+      "date": "2025-07",
+      "type": "award",
+      "text": "Won 3rd Prize at StartupTN Kadarkalam Hackathon for StartupTN Smart Card solution",
+      "impact": "major"
+   },
+   {
+      "date": "2025-06",
+      "type": "launch",
+      "text": "Released AI-Chatbot-using-LLaMA2: an open-source unrestricted LLaMA 2 model on GitHub",
+      "link": "https://github.com/hema772/AI-Chatbot-using-LLaMA2",
+      "impact": "major"
+   },
+   {
+      "date": "2025-06",
+      "type": "education",
+      "text": "Commenced B.E. in Computer Science and Engineering at Arifa Institute of Technology",
+      "impact": "major"
+   },
+   {
+      "date": "2025-06",
+      "type": "work",
+      "text": "Joined VHILV Technologies as Full Stack Development Intern in Nagapattinam",
+      "impact": "major"
+   },
+   {
+      "date": "2025-05",
+      "type": "award",
+      "text": "Secured 2nd Prize at National Project Expo, Indra Ganesan Institute of Technology",
+      "impact": "minor"
+   },
+   {
+      "date": "2025-04",
+      "type": "award",
+      "text": "Won Individual Prize at Naan Mudhalvan x SFJ Hackathon, St. Joseph's College",
+      "impact": "minor"
+   },
+   {
+      "date": "2025-03",
+      "type": "award",
+      "text": "Selected for Round 2 in Ministry of MSME National Hackathon",
+      "impact": "major"
+   },
+   {
+      "date": "2025-02",
+      "type": "award",
+      "text": "Served as Participant & ML Lead in ISRO Hackathon with NetOracle security project",
+      "impact": "major"
+   },
+   {
+      "date": "2023-05",
+      "type": "education",
+      "text": "Graduated Class XII (85.16%) from Government Girls Higher Secondary School",
+      "impact": "major"
+   }
+]

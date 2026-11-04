@@ -1,0 +1,196 @@
+{
+   "name": "Hemadharshini M",
+   "title": "Cloud Computing Student & AWS Developer",
+   "role": "Cloud & Full Stack Engineer | AWS Cloud",
+   "employer": "VHILV Tech",
+   "location": "TN, India     ",
+   "timezone": "Asia/Kolkata",
+   "intro": "Computer Science student focused on Cloud Computing and AWS via VHILV Technologies. First Prize winner at TNWISE 2026 for Smart SaltCare, backed by hackathons and startup recognitions.",
+   "role_label": "Cloud Solutions Architect & Full Stack Engineer",
+   "hero_taglines": [
+      "Solar IoT solutions with AWS. ",
+      "Full-stack & cloud integrations. ",
+      "Automated cloud file storage labs.",
+      "Scalable AWS cloud solutions. "
+   ],
+   "headline": "I build *scalable* cloud solutions with AWS.",
+   "hero_greeting": "Hi, I'm",
+   "availability": "Open for cloud & software engineering roles",
+   "contact": {
+      "github": "hema772"
+   },
+   "about": {
+      "greeting": "👋 Hi, I'm Hemadharshini M.",
+      "current_role": "💼 Computer Science student specializing in Cloud Computing & AWS. Developing full-stack CRM modules with Django, REST APIs, and self-hosted Docker cloud storage architectures.",
+      "specialization": "☁️ Cloud Computing: Amazon Web Services (AWS), Amazon EC2, Amazon S3, Amazon VPC, IaaS, PaaS, SaaS architectures. Hands-on experience across core cloud infrastructure, scalable cloud services, and end-to-end cloud deployment models.",
+      "education": "🎓 B.E. in Computer Science and Engineering, Arifa Institute of Technology (2023–2027, CGPA: 8.35). Class XII (85.16%).",
+      "competitive_programming": "🏆 15+ Hackathons (Winner & Recognition): Participated in 15+ hackathons with multiple prizes, recognitions, and finalist selections — including TNWISE 2026 1st Prize Winner (Smart SaltCare), AWS Student Builder, Google Student Ambassador, AICCI Top 10 Finalist & Nimirndhu Nil State Selected."
+   },
+   "impact": {
+      "clients_served": "3",
+      "clients_note": "Financial services and enterprise customers",
+      "years_at_aws": "2+"
+   },
+   "highlights": [
+      {
+         "value": "1st",
+         "label": "TNWISE 2026 Prize",
+         "note": "First Prize for Smart SaltCare IoT solution"
+      },
+      {
+         "value": "Lead",
+         "label": "AWS Student Builder",
+         "note": "Recognised for cloud learning and community"
+      },
+      {
+         "value": "Lead",
+         "label": "Google Ambassador",
+         "note": "Selected Google Student Ambassador on campus"
+      },
+      {
+         "value": "8.35",
+         "label": "B.E. Degree CGPA",
+         "note": "Arifa Institute of Technology, Anna Univ"
+      }
+   ],
+   "stats": {
+      "headings": {
+         "highlights": "Highlights",
+         "impact": "At AWS",
+         "delivery": "Delivery & credentials",
+         "open_source": "Open source",
+         "competitive": "Competitive programming"
+      },
+      "tiles": {
+         "clients_served": { "label": "Customer engagements" },
+         "years_at_aws": {
+            "label": "Years at AWS",
+            "note": "Professional Services since 2024"
+         },
+         "speaker_certs": {
+            "label": "Speaker certifications",
+            "note": "Associate and Senior"
+         },
+         "talks": {
+            "label": "Talks & AWS samples",
+            "note": "Presented or published at AWS"
+         },
+         "projects": {
+            "label": "Projects shipped",
+            "note": "{featured} featured"
+         },
+         "certifications": { "label": "Active certifications" },
+         "badges": { "label": "Learning badges" },
+         "podium": {
+            "label": "Podium finishes",
+            "note": "{first} first, {second} second, {third} third"
+         },
+         "merged_prs": {
+            "label": "PRs merged upstream",
+            "note": "Across {repos} projects",
+            "note_coauthored_one": "Plus 1 co-authored fix",
+            "note_coauthored_many": "Plus {count} co-authored fixes"
+         },
+         "stars": {
+            "label": "GitHub stars",
+            "note": "Combined, projects merged into"
+         },
+         "repos": {
+            "label": "Projects contributed to",
+            "note": "{big} with 10k+ stars"
+         },
+         "answers": {
+            "label": "Community answers",
+            "note": "{accepted} accepted, {helpful} marked helpful"
+         },
+         "leetcode_rating": {
+            "label": "LeetCode rating",
+            "note": "{badge} badge, top {top} of contestants"
+         },
+         "problems_solved": {
+            "label": "Problems solved",
+            "note": "{leetcode} LeetCode, {gfg} GeeksforGeeks"
+         },
+         "contests": {
+            "label": "Contests played",
+            "note": "Best finish: rank {rank}"
+         },
+         "hard_solved": {
+            "label": "Hard problems solved",
+            "note": "The hardest LeetCode tier"
+         }
+      },
+      "platforms": {
+         "link_label": "View",
+         "github": {
+            "label": "GitHub",
+            "contributions": "Contributions",
+            "pull_requests": "Pull requests",
+            "longest_streak": "Longest streak",
+            "streak_value": "{days} days",
+            "updated": "In the last year | updated {date}",
+            "languages": "Top languages by code size",
+            "profile_label": "GitHub profile @{username}",
+            "calendar": {
+               "label": "Daily GitHub contributions over the last year",
+               "current": "Current streak",
+               "less": "Less",
+               "more": "More",
+               "loading": "Loading GitHub contributions",
+               "summary": "{label}. {current} {days}.",
+               "days_one": "{count} day",
+               "days_many": "{count} days",
+               "tip": "{what} on {when}",
+               "contributions_none": "No contributions",
+               "contributions_one": "{count} contribution",
+               "contributions_many": "{count} contributions"
+            }
+         },
+         "leetcode": {
+            "label": "LeetCode",
+            "profile_label": "LeetCode profile {username}",
+            "top": "top {top}",
+            "best_rating": "Peak rating",
+            "problems_solved": "Solved",
+            "contests": "Contests",
+            "rating_peak": "PEAK {rating}",
+            "rating_contests": "{count} contests",
+            "rating_summary": "Contest rating from {first} in {first_year} to {last} in {last_year} over {count} contests, peak {peak}.",
+            "difficulty": "Solved by difficulty",
+            "easy": "Easy",
+            "medium": "Medium",
+            "hard": "Hard"
+         },
+         "geeksforgeeks": {
+            "label": "GeeksforGeeks",
+            "caption": "Problems Solved"
+         },
+         "hackerrank": {
+            "label": "HackerRank",
+            "caption": "Problem Solving | {cpp} C++"
+         }
+      }
+   },
+   "languages": [
+      { "name": "English", "level": "Professional Working" },
+      { "name": "Tamil", "level": "Native" }
+   ],
+   "social_profiles": [
+      {
+         "id": 1,
+         "name": "LinkedIn",
+         "link": "https://www.linkedin.com/in/hema-dharshini07/",
+         "icon": "BsLinkedin"
+      },
+      {
+         "id": 2,
+         "name": "GitHub",
+         "link": "https://github.com/hema772",
+         "icon": "FaGithub"
+      }
+   ],
+   "site": {
+      "tech_stack": ["React 19", "Vite 8", "Tailwind v4", "Motion", "Lenis"],
+      "resume_url": "/resume.pdf"
+   }
+}

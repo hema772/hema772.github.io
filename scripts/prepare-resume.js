@@ -1,0 +1,140 @@
+#!/usr/bin/env node
+// Fetch the latest resume PDF from the latex-resume release, then render each
+// page to a high-resolution WebP so the in-site CV viewer shows crisp,
+// zoomable images with zero client-side PDF machinery. The .tex sources at the
+// same release tag are parsed into cv.json for the viewer's web (HTML) view.
+// Outputs (gitignored):
+//   public/resume.pdf              -- for the open-in-new-tab action
+//   public/resume-pages/page-N.webp
+//   public/resume-pages/manifest.json  { pages, width, height, version }
+//   public/resume-pages/cv.json        { version, header, sections }
+// version is the release tag. CI's scheduled resume check reads it from the
+// live site to decide whether a newer release needs a deploy.
+// CI runs this before `vite build`; locally run `pnpm fetch:resume`.
+
+import { createWriteStream } from "node:fs";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { pipeline } from "node:stream/promises";
+import path from "node:path";
+import { pdf } from "pdf-to-img";
+import sharp from "sharp";
+import { parseResume, RESUME_FILES } from "./resume-tex.js";
+
+const REPO = process.env.RESUME_REPO || "hema772/hema772.github.io";
+const PUBLIC_DIR = path.resolve(import.meta.dirname, "../public");
+const PDF_OUT = path.join(PUBLIC_DIR, "resume.pdf");
+const PAGES_DIR = path.join(PUBLIC_DIR, "resume-pages");
+
+// 4x the PDF's natural size (~595pt page -> ~2380px) so the page stays
+// sharp on retina displays even at the viewer's 150% zoom.
+const RENDER_SCALE = 4;
+
+// Pin the PDF and the .tex sources to one release tag so the web view and the
+// page images can never come from different builds. No tag, no build: an
+// unreachable or rate-limited API fails the step instead of mixing the
+// "latest" PDF with main-branch sources. CI passes GITHUB_TOKEN for the
+// authenticated rate limit.
+// The tag ends up in URLs and logs, so accept only vMAJOR.MINOR.PATCH and
+// rebuild it from the parsed numbers rather than passing the API string on.
+const toReleaseTag = (name) => {
+   const m = /^v(\d{1,4})\.(\d{1,4})\.(\d{1,4})$/.exec(String(name));
+   return m ? `v${Number(m[1])}.${Number(m[2])}.${Number(m[3])}` : null;
+};
+
+const latestTag = async () => {
+   const headers = { Accept: "application/vnd.github+json" };
+   if (process.env.GITHUB_TOKEN)
+      headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+   const r = await fetch(
+      `https://api.github.com/repos/${REPO}/releases/latest`,
+      { headers, signal: AbortSignal.timeout(15_000) },
+   );
+   const tag = r.ok ? toReleaseTag((await r.json()).tag_name) : null;
+   if (!tag) {
+      throw new Error(
+         `Cannot resolve the latest ${REPO} release (HTTP ${r.status})`,
+      );
+   }
+   return tag;
+};
+
+let tag;
+try {
+   tag = await latestTag();
+} catch (err) {
+   console.warn(`[prepare-resume] ${err.message}. Skipping resume update.`);
+   process.exit(0);
+}
+const RESUME_URL = `https://github.com/${REPO}/releases/download/${tag}/resume.pdf`;
+
+console.log(`Fetching resume PDF (${tag})...`);
+const res = await fetch(RESUME_URL, {
+   redirect: "follow",
+   signal: AbortSignal.timeout(30_000),
+});
+if (!res.ok || !res.body) {
+   console.error(`Failed to fetch resume: HTTP ${res.status}`);
+   process.exit(1);
+}
+await mkdir(PAGES_DIR, { recursive: true });
+await pipeline(res.body, createWriteStream(PDF_OUT));
+
+console.log("Rendering pages...");
+const pdfBuffer = await readFile(PDF_OUT);
+if (pdfBuffer.subarray(0, 5).toString("ascii") !== "%PDF-") {
+   throw new Error("Downloaded resume is not a valid PDF");
+}
+const document = await pdf(pdfBuffer, { scale: RENDER_SCALE });
+
+let pageNum = 0;
+let width = 0;
+let height = 0;
+for await (const pagePng of document) {
+   pageNum += 1;
+   const img = sharp(pagePng);
+   if (pageNum === 1) {
+      const meta = await img.metadata();
+      width = meta.width ?? 0;
+      height = meta.height ?? 0;
+   }
+   const out = path.join(PAGES_DIR, `page-${pageNum}.webp`);
+   // Lossless: typeset text smears badly under lossy WebP's DCT blocks.
+   // A mostly-white LaTeX page compresses tightly lossless anyway.
+   await img.webp({ lossless: true, effort: 6 }).toFile(out);
+   console.log(`  ${out}`);
+}
+
+if (pageNum === 0 || width === 0 || height === 0) {
+   throw new Error("Resume renderer produced no valid pages");
+}
+
+await writeFile(
+   path.join(PAGES_DIR, "manifest.json"),
+   JSON.stringify({ pages: pageNum, width, height, version: tag }) + "\n",
+);
+console.log(`Done: ${pageNum} page(s), ${width}x${height}`);
+
+// Web view. A failure here never blocks the deploy: without cv.json the
+// viewer simply opens on the page images.
+console.log("Parsing resume sources for the web view...");
+try {
+   const sources = await Promise.all(
+      RESUME_FILES.map(async (file) => {
+         const r = await fetch(
+            `https://raw.githubusercontent.com/${REPO}/${tag}/${file}`,
+            { signal: AbortSignal.timeout(15_000) },
+         );
+         if (!r.ok) throw new Error(`${file}: HTTP ${r.status}`);
+         return [file, await r.text()];
+      }),
+   );
+   const cv = parseResume(Object.fromEntries(sources));
+   if (cv.sections.length === 0) throw new Error("no sections parsed");
+   await writeFile(
+      path.join(PAGES_DIR, "cv.json"),
+      JSON.stringify({ version: tag, ...cv }) + "\n",
+   );
+   console.log(`  cv.json: ${cv.sections.length} sections (${tag})`);
+} catch (error) {
+   console.warn(`  Skipped the web view: ${error.message}`);
+}
