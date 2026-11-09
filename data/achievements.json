@@ -317,32 +317,36 @@
       "github": {
          "username": "hema772",
          "url": "https://github.com/hema772",
-         "contributions": 482,
-         "pull_requests": 64,
-         "longest_streak": 28,
+         "contributions": 42,
+         "pull_requests": 0,
+         "longest_streak": 1,
          "languages": [
             {
-               "name": "Python",
-               "percent": 45
-            },
-            {
-               "name": "Shell",
-               "percent": 25
-            },
-            {
                "name": "TypeScript",
-               "percent": 15
+               "percent": 83.9
             },
             {
                "name": "JavaScript",
-               "percent": 10
+               "percent": 8.8
             },
             {
                "name": "CSS",
-               "percent": 5
+               "percent": 4.9
+            },
+            {
+               "name": "HTML",
+               "percent": 0.9
+            },
+            {
+               "name": "Apex",
+               "percent": 0.7
+            },
+            {
+               "name": "Python",
+               "percent": 0.4
             }
          ],
-         "fetched": "2026-10-31"
+         "fetched": "2026-11-09"
       }
    }
 }
